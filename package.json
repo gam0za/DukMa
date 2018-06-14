@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/gam0za/DukMa/issues"
   },
-  "homepage": "https://github.com/gam0za/DukMa#readme"
+  "homepage": "https://github.com/gam0za/DukMa#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "save": "^2.3.2"
+  }
 }
