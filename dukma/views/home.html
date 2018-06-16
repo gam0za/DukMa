@@ -11,11 +11,26 @@
 		}
 
 		#wrapper{
-			width:1000px; left:0; right:0; margin-left:auto; margin-right:auto;
-			height:500px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			vertical-align: middle;
+			margin-top: 200px;
+		}
+		#login{
+			width: 100px;
+			height: 100px;
+			float: left;
+			margin-left: 100px;
+		}
+		#signup{
+			width: 100px;
+			height: 100px;
+			float: right;
+			margin-right: 100px;
 		}
 	</style>
-	
+
 	<title></title>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
 <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -62,8 +77,10 @@
 	</nav>
 
 <!-- 점보트론 -->
-	<div id="wrapper">
-  		<img src="/images/jumbo.png" alt="">
+	<div style="height: 1000px;">
+		<img  id="login" src="/images/login.png" alt="">
+  		<img src="/images/jumbo.png" id="wrapper" alt="">
+  		<img id="signup" src="/images/signup.png" alt="">
 	</div>
 </body>
 </html>
