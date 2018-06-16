@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style type="text/css">
+		.background{
+			background-color: #A7DCE1;
+		}
+
+		#maincolor{
+			color: #3C604F;
+		}
+	</style>
 	<title></title>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
 <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="background">
+	<nav>
+		<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" id="maincolor" href="#">HOME</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" id="maincolor" aria-expanded="false">MARKET</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" id="maincolor" href="#">의류</a>
+      <a class="dropdown-item" id="maincolor" href="#">잡화.신발</a>
+      <a class="dropdown-item" id="maincolor" href="#">화장품</a>
+      <a class="dropdown-item" id="maincolor" href="#">문구류</a>
+      <a class="dropdown-item" id="maincolor" href="#">전자제품</a>
+      <a class="dropdown-item" id="maincolor" href="#">기타</a>
+      <div class="dropdown-divider" id="maincolor"></div>
+      <a class="dropdown-item" id="maincolor" href="#">제품등록</a>
+      <a class="dropdown-item" id="maincolor" href="#">제품요청</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="maincolor" href="#">CART</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" id="maincolor" aria-expanded="false">MYPAGE</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" id="maincolor" href="#">쪽지</a>
+      <a class="dropdown-item" id="maincolor" href="#">내 상품</a>
+      <div class="dropdown-divider" id="maincolor"></div>
+      <a class="dropdown-item" id="maincolor" href="#">로그인</a>
+      <a class="dropdown-item" id="maincolor" href="#">로그아웃</a>
+      <a class="dropdown-item" id="maincolor" href="#">설정</a>
+    </div>
+  </li>
+</ul>
+	</nav>
 
-<nav class="navbar navbar-expand-sm bg-light fixed-top">
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="collapsibleNavbar">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a hrefr="#">jinyoung</a>
-			</li>
-		</ul>
-	</div>
-	<ul class="navbar-nav">
-		<li class="nav-item">
-			<a class="nav-link" href="#">hello</a>
-		</li>
-
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">hello</a>
-			<div class="dropdown-menu">
-				<a href="#" class="dropdown-item">서브1</a>
-				<a href="#" class="dropdown-item">서브1</a>
-				<a href="#" class="dropdown-item">서브1</a>
-			</div>
-		</li>
-
-
-	</ul>
-</nav>
-
-<!-- <nav>
-	<ul class="nav nav-pills">
-		<li>
-			<a href="#">HOME</a>
-		</li>
-
-		<li class="dropdown">
-			<a class="dropdown-toggle"
-			data-toggle="dropdown" 
-			href="#">
-		MARKET
-		<b class="caret"></b>
-		</a>
-		<ul class="dropdown-menu">
-			<a href="#">.  dmdkr</a>
-		</ul>
-		</li>
-
-		<li><a href="#">CART</a></li>
-		<li><a href="#">MYPAGE</a></li>
-	</ul>
-</nav> -->
 </body>
 </html>
