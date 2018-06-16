@@ -23,14 +23,13 @@ app.use(cookieParser());
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/js',express.static(path.join(__dirname,'node_modules','bootstrap','dist','js')));
-app.use('/css', express.static(path.join(__dirname, 'node_modules', 'bootstrap', 'dist', 'css')));
-
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
+// 정적파일
+app.use(express.static('public'))
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
