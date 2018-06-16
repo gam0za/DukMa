@@ -2,7 +2,7 @@
 <html>
 <head>
 	<style type="text/css">
-		.background{
+		#background{
 			background-color: #A7DCE1;
 		}
 
@@ -13,17 +13,16 @@
 		#wrapper{
 			width:1000px; left:0; right:0; margin-left:auto; margin-right:auto;
 			height:500px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
-
-
 		}
 	</style>
+	
 	<title></title>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
 <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 </head>
-<body class="background">
+<body id="background">
 
 	<!-- 네비게이션 바 -->
 	<nav>
@@ -33,7 +32,7 @@
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" id="maincolor" aria-expanded="false">MARKET</a>
-    <div class="dropdown-menu">
+    <div id="background" class="dropdown-menu">
       <a class="dropdown-item" id="maincolor" href="#">의류</a>
       <a class="dropdown-item" id="maincolor" href="#">잡화.신발</a>
       <a class="dropdown-item" id="maincolor" href="#">화장품</a>
